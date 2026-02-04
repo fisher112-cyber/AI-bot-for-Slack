@@ -15,7 +15,7 @@ AI‑бот для корпоративного Slack:
 
 ### 1. Клонировать репозиторий
 
-git clone https://github.com/your-user/AI-bot-for-Slack.git
+git clone [https://github.com/your-user/AI-bot-for-Slack.git](https://github.com/fisher112-cyber/AI-bot-for-Slack)
 cd AI-bot-for-Slack
 
 ### 2. Установить зависимости
