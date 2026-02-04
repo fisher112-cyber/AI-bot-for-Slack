@@ -21,7 +21,9 @@ cd AI-bot-for-Slack
 ### 2. Установить зависимости
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 ### 3. Создать .env
