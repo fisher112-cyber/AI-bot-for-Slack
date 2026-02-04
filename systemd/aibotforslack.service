@@ -1,0 +1,16 @@
+[Unit]
+Description=AI Bot for Slack (Socket Mode + GPT)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/AI-bot-for-Slack
+EnvironmentFile=/opt/AI-bot-for-Slack/.env
+ExecStart=/opt/AI-bot-for-Slack/venv/bin/python /opt/AI-bot-for-Slack/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
