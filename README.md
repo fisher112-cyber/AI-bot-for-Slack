@@ -35,9 +35,13 @@ python app.py
 ### 5. Установка как systemd сервис
 
 sudo cp systemd/aibotforslack.service /etc/systemd/system/aibotforslack.service
+
 sudo systemctl daemon-reload
+
 sudo systemctl enable aibotforslack
+
 sudo systemctl start aibotforslack
+
 sudo systemctl status aibotforslack
 
 ---
